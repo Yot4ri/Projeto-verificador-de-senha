@@ -1,0 +1,49 @@
+body{
+    background-image: url(/erro.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow: none;
+}
+
+main{
+    background-color:rgb(46, 46, 46);
+    /*background-color:rgb(160, 156, 156);*/
+    padding:25px;
+    width:50%;
+    margin:auto;
+    margin-top:25vh;
+    position:flex;
+    
+    border:solid 3px rgb(173, 193, 230);
+    border-radius:10px;
+}
+
+form{
+    padding:10px;
+}
+
+p{
+    color:white;
+}
+
+h2{
+    color:white;
+}
+
+label{
+    color:white;
+}
+
+input{
+    margin:0.5em;
+}
+
+.botao{
+    border-radius:5px;
+    border-width: 0.2px;
+}
+
+.botao:hover{
+    background-color:rgb(170, 167, 167);
+    color:black;
+}
