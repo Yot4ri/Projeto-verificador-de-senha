@@ -13,7 +13,7 @@ function verificarSenha(){
     }
 
     else {
-        if(senha == "r3stor3" || senha == "R3STOR3"){
+        if(senha == "r3st0r3" || senha == "R3ST0R3"){
             alert("Senha está correta!");
             window.open("/sucesso.html","_self");
         }
