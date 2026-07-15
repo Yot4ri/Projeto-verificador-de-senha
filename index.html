@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autenticador 💻</title>
-    <script defer type=text/javascript src="script.js"></script>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+
+    <script defer type= text/javascript src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main class="text-center">
-        <h2>Autenticador de senha</h2>
-        <p>A senha deve ser colocada exclusivamente em letras maiúsculas</p>
-        <form method="POST" id="menu" autocomplete="off">
-            <label for="senha" required>Senha</label>
-            <input type="text" id="senha"> <br>
-            <input type="submit" value="Verificar" class="botao">
-        </form>
+
+        <article>
+            <h2>Autenticador de senha</h2>
+            <p>Digite a senha utilizando apenas letras maiúsculas.</p>
+            <form method="POST" id="menu" autocomplete="off">
+                
+                <label for="senha" required>Senha</label>
+                <input type="text" id="senha" class="textoForms" size="20"> <br>
+                
+                <input type="submit" value="Verificar" class="botao">
+            </form>
+        </article>    
+
     </main>
 </body>
 

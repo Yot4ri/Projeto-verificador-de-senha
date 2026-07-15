@@ -1,5 +1,5 @@
 body{
-    background-image: url(/erro.jpg);
+    background-image: url(erro.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     overflow: none;
@@ -7,7 +7,6 @@ body{
 
 main{
     background-color:rgb(46, 46, 46);
-    /*background-color:rgb(160, 156, 156);*/
     padding:25px;
     width:50%;
     margin:auto;
@@ -19,31 +18,75 @@ main{
 }
 
 form{
-    padding:10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top:30px;
 }
 
 p{
+    font-size:18px;
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
+    font-size:25px;
     color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 label{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
     color:white;
 }
 
 input{
-    margin:0.5em;
+    font-size:16px;
+    position:flex;
+    margin:auto;
+    display:block;
+}
+
+.textoForms{
+    padding:8px;
 }
 
 .botao{
+    display:block;
     border-radius:5px;
     border-width: 0.2px;
+    font-size:16px;
+    padding:10px;
+}
+
+.botao:before{
+    background-color:rgb(170, 167, 167);
+    transition-duration: 0.4s
 }
 
 .botao:hover{
-    background-color:rgb(170, 167, 167);
-    color:black;
+    background-color:rgb(109, 127, 145);
+    color:white;
+}
+
+article{
+    align-content: center;
+}
+
+article h2, p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article img{
+    display:flex;
+    margin:auto;
+        
+    height:50vh;
+    width:25vw;
 }
