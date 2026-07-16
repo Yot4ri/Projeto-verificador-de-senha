@@ -49,6 +49,10 @@ Durante a atividade, os participantes deveriam reunir pistas espalhadas pelo amb
 
 ---
 
+## Time de Desenvolvimento
+
+- Alex Teixeira, Estudante de Engenharia da Computação
+
 ## Aprendizados 📚
 
 Durante o desenvolvimento deste projeto foram praticados conceitos como:
